@@ -1,0 +1,24 @@
+{
+  "project": "PicPilot AI",
+  "version": "0.1.0-mvp",
+  "scenes": [
+    { "id": "ecommerce-main", "name": "电商主图", "ratio": "1:1", "goal": "提升搜索和列表点击率" },
+    { "id": "xiaohongshu-cover", "name": "小红书封面", "ratio": "3:4", "goal": "提高内容点击和种草转化" },
+    { "id": "wechat-poster", "name": "朋友圈海报", "ratio": "3:4", "goal": "私域转发和活动促单" },
+    { "id": "festival-promo", "name": "节日促销", "ratio": "1:1", "goal": "大促活动视觉曝光" }
+  ],
+  "styles": [
+    "极简高级",
+    "黑金奢华",
+    "清新自然",
+    "科技蓝紫",
+    "国潮醒目",
+    "可爱活力"
+  ],
+  "nextSteps": [
+    "接入真实 AI 抠图 API",
+    "接入图像生成模型",
+    "替换 SVG MVP 为 Fabric.js 或 Konva.js 图层编辑器",
+    "增加用户系统、点数系统和生成历史"
+  ]
+}
